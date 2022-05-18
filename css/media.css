@@ -1,17 +1,124 @@
 @media (max-width: 1280) {}
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    .nav2 {
+        display: none !important;
+    }
+    .header-down {
+        display: none;
+    }
+    .banner {
+        background: #000;
+        min-height: unset;
+    }
+    .header-down {
+        display: none;
+    }
+    .mobilenav {
+        display: block !important;
+    }
+    .logo_img {
+        width: 70px;
+    }
+    .media-btn .btn_1 {
+        display: inline-block;
+    }
+    .mobilenav .btn-cart {
+        display: inline-flex;
+    }
+    .mobilenav .btn-cart .badge-danger {
+        right: -1px;
+    }
+    .btn_2 {
+        display: none !important;
+    }
+}
 
-@media (max-width: 912px) {}
+@media (max-width: 912px) {
+    .nav2 {
+        display: none !important;
+    }
+    .header-down {
+        display: none;
+    }
+    .ban_image {
+        display: none;
+    }
+    .banner {
+        background: #000;
+        min-height: unset;
+    }
+    .header-down {
+        display: none;
+    }
+    .mobilenav {
+        display: block !important;
+    }
+    .logo_img {
+        width: 70px;
+    }
+    .media-btn .btn_1 {
+        display: inline-block;
+    }
+    .mobilenav .btn-cart {
+        display: inline-flex;
+    }
+    .mobilenav .btn-cart .badge-danger {
+        right: -1px;
+    }
+    .btn_2 {
+        display: none !important;
+    }
+}
 
-@media (max-width: 820px) {}
-
-@media (max-width: 800px) {}
-
-@media (max-width: 768px) {}
+@media (max-width: 820px) {
+    .nav2 {
+        display: none !important;
+    }
+    .header-down {
+        display: none;
+    }
+    .ban_image {
+        display: none;
+    }
+    .banner {
+        background: #000;
+        min-height: unset;
+    }
+    .header-down {
+        display: none;
+    }
+    .mobilenav {
+        display: block !important;
+    }
+    .logo_img {
+        width: 70px;
+    }
+    .media-btn .btn_1 {
+        display: inline-block;
+    }
+    .mobilenav .btn-cart {
+        display: inline-flex;
+    }
+    .mobilenav .btn-cart .badge-danger {
+        right: -1px;
+    }
+    .btn_2 {
+        display: none !important;
+    }
+}
 
 @media (max-width: 600px) {
+    .nav-item .text-login {
+        display: none;
+    }
+    .btn_2 {
+        display: inline-block !important;
+    }
     .ban_image {
+        display: none;
+    }
+    .mobile_btn .btn_1 {
         display: none;
     }
     .banner {
@@ -125,6 +232,7 @@
         top: 40px;
         width: 100%;
         z-index: 5;
+        transition: 0.5s;
     }
     .left-sticky-sidebar.scroll {
         animation: navAnimationMedia 0.5s forwards;
@@ -164,5 +272,3 @@
         }
     }
 }
-
-@media (max-width: 540px) {}

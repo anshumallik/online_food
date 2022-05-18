@@ -77,23 +77,24 @@ $(window).scroll(function() {
 // magnific pop up
 
 function magnifyEffect() {
-    $('.magnifyGallery').magnificPopup({
+    $('.magnifyImage').magnificPopup({
         delegate: 'a',
         type: 'image',
-        tLoading: 'Loading image #%curr%...',
+        closeOnContentClick: true,
         mainClass: 'mfp-img-mobile',
-        gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1]
-        },
         image: {
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-            titleSrc: 'title',
-
-            // this tells the script which attribute has your caption
-
+            verticalFit: true
         }
     });
 }
 // end magnific popup
+
+//theiaStickySidebar
+jQuery(document).ready(function() {
+    jQuery('.single_sidebar_widget, .right_sidebar_widget').theiaStickySidebar({
+        additionalMarginTop: 90,
+        updateSidebarHeight: true,
+        disableOnResponsiveLayouts: true,
+    });
+});
+//end theiaStickySidebar

@@ -31,7 +31,9 @@ a {
     text-decoration: none !important;
 }
 
-// navbar style
+
+/* navbar style */
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 10px 10px !important;
     transition: all 0.3s ease;
@@ -153,7 +155,12 @@ a {
     }
 }
 
-// scroll to top button style
+
+/* navbar style */
+
+
+/* scroll to top button style */
+
 #button {
     display: inline-block;
     background-color: $secondaryColor;
@@ -191,7 +198,12 @@ a {
     }
 }
 
-// banner section style
+
+/* scroll to top button style */
+
+
+/* banner section style */
+
 .banner {
     background: url("../images/banner.jpg");
     background-size: cover;
@@ -246,7 +258,12 @@ a {
     }
 }
 
-// below banner style
+
+/* banner section style */
+
+
+/* below banner style */
+
 .main_order {
     position: relative;
     z-index: 1;
@@ -332,7 +349,12 @@ a {
     }
 }
 
-// product css
+
+/* below banner style */
+
+
+/* product style */
+
 .product-grid {
     .title a {
         font-size: 18px;
@@ -404,7 +426,12 @@ a {
     }
 }
 
-// Modal Style
+
+/* product style */
+
+
+/* modal style add to cart */
+
 .modal {
     .modal-content {
         border-radius: 0;
@@ -445,7 +472,12 @@ a {
     }
 }
 
-// footer style
+
+/* modal style add to cart */
+
+
+/* footer style */
+
 footer {
     float: left;
     width: 100%;
@@ -515,7 +547,12 @@ footer {
     }
 }
 
-// mobile nav
+
+/* footer style */
+
+
+/* mobile nav */
+
 .mobilenav {
     display: none !important;
     z-index: 1000;
@@ -572,6 +609,12 @@ footer {
     }
 }
 
+
+/* mobile nav */
+
+
+/* sticky icon footer */
+
 .sitecolor {
     background-color: $primaryColor !important;
 }
@@ -585,6 +628,5 @@ footer {
     display: none !important;
 }
 
-// .mobile_btn .btn_1 {
-//     display: none;
-// }
+
+/* sticky icon footer */

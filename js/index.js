@@ -98,3 +98,21 @@ jQuery(document).ready(function() {
     });
 });
 //end theiaStickySidebar
+
+
+// page loader
+
+
+$(window).on('load', function() {
+    setTimeout(removeLoader, 2000);
+    $('.data').hide();
+
+});
+
+function removeLoader() {
+    $(".preloader").fadeOut(500, function() {
+        $('.data').show();
+        $(".preloader").remove();
+
+    });
+}

@@ -384,6 +384,15 @@ a {
   background: #ccc;
 }
 
+.main_order .preloader {
+  position: fixed;
+  left: 0px;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+}
+
 /* below banner style */
 /* product style */
 .product-grid .title a {

@@ -385,12 +385,16 @@ a {
 }
 
 .main_order .preloader {
-  position: fixed;
+  position: relative;
   left: 0px;
   top: 50%;
   width: 100%;
-  height: 100%;
+  height: 200px;
   background-position: center center;
+}
+
+.main_order .data {
+  display: none;
 }
 
 /* below banner style */

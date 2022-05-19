@@ -348,12 +348,15 @@ a {
         background: #ccc;
     }
     .preloader {
-        position: fixed;
+        position: relative;
         left: 0px;
         top: 50%;
         width: 100%;
-        height: 100%;
+        height: 200px;
         background-position: center center;
+    }
+    .data {
+        display: none;
     }
 }
 

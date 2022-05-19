@@ -168,12 +168,12 @@ $white: #fff;
                 @include displayNone();
             }
         }
-    }
-    .search_product {
-        height: 0;
-    }
-    .left-sticky-sidebar .search_product .input-group {
-        border: 1px solid #ddd;
+        .search_product .input-group {
+            border: 1px solid #ddd;
+        }
+        .search_product {
+            height: 0;
+        }
     }
     .list-group {
         @include displayNone();

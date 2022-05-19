@@ -234,11 +234,11 @@
   .left-sticky-sidebar .title-menu i {
     display: none !important;
   }
-  .search_product {
-    height: 0;
-  }
   .left-sticky-sidebar .search_product .input-group {
     border: 1px solid #ddd;
+  }
+  .left-sticky-sidebar .search_product {
+    height: 0;
   }
   .list-group {
     display: none !important;

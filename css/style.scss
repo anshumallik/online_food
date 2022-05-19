@@ -47,17 +47,17 @@ a {
     }
 }
 
-.header-down .logo {
-    max-width: 90px;
-}
-
-.header-down .logo img {
-    height: auto;
-    @include image-style;
-}
-
-.header-down .bg-nav {
-    background-color: $mainColor;
+.header-down {
+    .logo {
+        max-width: 90px;
+    }
+    .logo img {
+        height: auto;
+        @include image-style;
+    }
+    .bg-nav {
+        background-color: $mainColor;
+    }
 }
 
 .main_header {
@@ -65,17 +65,15 @@ a {
     position: absolute;
     width: 100%;
     z-index: 22;
-}
-
-.main_header .sticky {
-    position: fixed;
-    animation: navAnimation 0.5s forwards;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    left: 0;
-    right: 0;
-    background: $mainColor;
+    .sticky {
+        position: fixed;
+        animation: navAnimation 0.5s forwards;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        left: 0;
+        right: 0;
+    }
 }
 
 @keyframes navAnimation {
@@ -85,24 +83,6 @@ a {
     100% {
         top: 0;
     }
-}
-
-.navbar {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.navbar-toggler-icon {
-    color: $primaryColor;
-}
-
-.nav-item.active .nav-link {
-    color: $primaryColor;
-}
-
-.nav-item .text-login {
-    display: inline-block;
-    padding: 10px 20px;
 }
 
 .button-basic {
@@ -115,13 +95,19 @@ a {
     text-transform: uppercase;
 }
 
-.nav-item .btn-order {
-    @extend .button-basic;
-    background-color: $primaryColor;
-    color: $mainColor;
-    &:hover {
-        background-color: $mainColor;
-        color: $primaryColor;
+.nav-item {
+    .btn-order {
+        @extend .button-basic;
+        background-color: $primaryColor;
+        color: $mainColor;
+        &:hover {
+            background-color: $mainColor;
+            color: $primaryColor;
+        }
+    }
+    .text-login {
+        display: inline-block;
+        padding: 10px 20px;
     }
 }
 

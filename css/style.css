@@ -62,7 +62,6 @@ a {
   z-index: 1000;
   left: 0;
   right: 0;
-  background: #fff;
 }
 
 @-webkit-keyframes navAnimation {
@@ -83,24 +82,6 @@ a {
   }
 }
 
-.navbar {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.navbar-toggler-icon {
-  color: #e31a27;
-}
-
-.nav-item.active .nav-link {
-  color: #e31a27;
-}
-
-.nav-item .text-login {
-  display: inline-block;
-  padding: 10px 20px;
-}
-
 .button-basic, .nav-item .btn-order {
   padding: 8px 20px;
   text-align: center;
@@ -119,6 +100,11 @@ a {
 .nav-item .btn-order:hover {
   background-color: #fff;
   color: #e31a27;
+}
+
+.nav-item .text-login {
+  display: inline-block;
+  padding: 10px 20px;
 }
 
 .main_header .btn-cart,

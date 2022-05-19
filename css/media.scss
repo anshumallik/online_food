@@ -136,7 +136,7 @@ $white: #fff;
     .main_order {
         padding: 0;
         .form-control {
-            height: 39px;
+            height: 38.4px;
             border-radius: 0 !important;
         }
     }
@@ -144,7 +144,7 @@ $white: #fff;
         content: "\f107";
         right: 10px;
         transition: 0.4s;
-        font-family: Font Awesome\5 Free;
+        font-family: Font Awesome\ 5 Free;
         font-weight: 600;
         position: absolute;
         font-size: 14px;
@@ -170,7 +170,7 @@ $white: #fff;
         }
     }
     .search_product {
-        height: 40px;
+        height: 0;
     }
     .left-sticky-sidebar .search_product .input-group {
         border: 1px solid #ddd;
@@ -197,12 +197,16 @@ $white: #fff;
         width: 100% !important;
         z-index: 5;
     }
-    .media-card {
-        width: 50%;
+    .single_sidebar_widget {
+        padding: 0 !important;
+    }
+    .media-card.card {
+        width: 100%;
+        position: initial;
     }
     .media-margin {
         margin-bottom: 0;
-        width: 50%;
+        width: 100%;
     }
     .center_content {
         margin-top: 30px;

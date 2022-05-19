@@ -132,6 +132,9 @@
   .logo_img {
     width: 70px;
   }
+  .mobilenav {
+    display: block !important;
+  }
   .mobilenav .btn-cart {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -178,11 +181,11 @@
   .product-grid .add-to-cart {
     padding: 2px 7px;
   }
-  .footer .footer_up_image {
-    bottom: calc(100% - 40px);
-  }
   .footer {
     padding: 80px 0px 50px 0px;
+  }
+  .footer .footer_up_image {
+    bottom: calc(100% - 40px);
   }
   #button {
     bottom: 60px;
@@ -193,6 +196,10 @@
   .main_order {
     padding: 0;
   }
+  .main_order .form-control {
+    height: 38.4px;
+    border-radius: 0 !important;
+  }
   .my-menu-media h3:before {
     content: "\f107";
     right: 10px;
@@ -202,10 +209,6 @@
     font-weight: 600;
     position: absolute;
     font-size: 14px;
-  }
-  .main_order .form-control {
-    height: 39px;
-    border-radius: 0 !important;
   }
   .list-group-flush > .list-group-item {
     z-index: 1;
@@ -221,14 +224,21 @@
   .left-sticky-sidebar .input-group .btn {
     top: 2px;
   }
-  .search_product {
-    height: 40px;
-  }
-  .left-sticky-sidebar .search_product .input-group {
+  .left-sticky-sidebar .title-menu {
+    padding: 0.6rem;
     border: 1px solid #ddd;
+  }
+  .left-sticky-sidebar .title-menu h3 {
+    font-size: 1rem;
   }
   .left-sticky-sidebar .title-menu i {
     display: none !important;
+  }
+  .search_product {
+    height: 0;
+  }
+  .left-sticky-sidebar .search_product .input-group {
+    border: 1px solid #ddd;
   }
   .list-group {
     display: none !important;
@@ -255,19 +265,16 @@
     width: 100% !important;
     z-index: 5;
   }
-  .left-sticky-sidebar .title-menu {
-    padding: 0.6rem;
-    border: 1px solid #ddd;
+  .single_sidebar_widget {
+    padding: 0 !important;
   }
-  .left-sticky-sidebar .title-menu h3 {
-    font-size: 1rem;
-  }
-  .media-card {
-    width: 50%;
+  .media-card.card {
+    width: 100%;
+    position: initial;
   }
   .media-margin {
     margin-bottom: 0;
-    width: 50%;
+    width: 100%;
   }
   .center_content {
     margin-top: 30px;

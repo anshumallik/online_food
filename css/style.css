@@ -14,6 +14,7 @@ a {
   text-decoration: none !important;
 }
 
+/* navbar style */
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 10px !important;
   -webkit-transition: all 0.3s ease;
@@ -159,6 +160,8 @@ a {
   transition: 0.4s;
 }
 
+/* navbar style */
+/* scroll to top button style */
 #button {
   display: inline-block;
   background-color: #ea4651;
@@ -203,6 +206,8 @@ a {
   visibility: visible;
 }
 
+/* scroll to top button style */
+/* banner section style */
 .banner {
   background: url("../images/banner.jpg");
   background-size: cover;
@@ -272,6 +277,8 @@ a {
   height: 100%;
 }
 
+/* banner section style */
+/* below banner style */
 .main_order {
   position: relative;
   z-index: 1;
@@ -377,6 +384,8 @@ a {
   background: #ccc;
 }
 
+/* below banner style */
+/* product style */
 .product-grid .title a {
   font-size: 18px;
   font-weight: 600;
@@ -459,6 +468,8 @@ a {
   display: grid;
 }
 
+/* product style */
+/* modal style add to cart */
 .modal .modal-content {
   border-radius: 0;
 }
@@ -504,6 +515,8 @@ a {
   font-size: 20px;
 }
 
+/* modal style add to cart */
+/* footer style */
 footer {
   float: left;
   width: 100%;
@@ -593,6 +606,8 @@ footer .privacy-policy .divider {
   height: 20px;
 }
 
+/* footer style */
+/* mobile nav */
 .mobilenav {
   display: none !important;
   z-index: 1000;
@@ -660,6 +675,7 @@ footer .privacy-policy .divider {
   font-weight: 600;
 }
 
+/* mobile nav */
 /* sticky icon footer */
 .sitecolor {
   background-color: #e31a27 !important;
@@ -673,4 +689,6 @@ footer .privacy-policy .divider {
 .nav2 {
   display: none !important;
 }
+
+/* sticky icon footer */
 /*# sourceMappingURL=style.css.map */
